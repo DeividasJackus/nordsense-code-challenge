@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
