@@ -1,0 +1,46 @@
+{
+  "name": "nordsense-code-challenge",
+  "version": "0.1.0",
+  "description": "Code challenge for Nordsense",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deividasjackus/nordsense-code-challenge.git"
+  },
+  "keywords": [
+    "challenge",
+    "code-challenge",
+    "geospatial",
+    "intersections"
+  ],
+  "author": "Deividas Jackus <d@jackus.eu> (https://deividas.eu/?)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deividasjackus/nordsense-code-challenge/issues"
+  },
+  "homepage": "https://github.com/deividasjackus/nordsense-code-challenge#readme",
+  "dependencies": {
+    "@hapi/boom": "^7.4.2",
+    "@hapi/joi": "^15.0.3",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.17.1"
+  }
+}
