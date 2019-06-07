@@ -1,5 +1,7 @@
 # Code challenge for Nordsense
 
+Original challenge document can be found [here](https://github.com/deividasjackus/nordsense-code-challenge/blob/master/docs/challenge.pdf).
+
 Authored 2019-06-06 by [Deividas Jackus](https://github.com/deividasjackus).
 
 ## Installation
