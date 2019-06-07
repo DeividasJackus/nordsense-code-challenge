@@ -46,10 +46,6 @@ function getNearestIntersection({ latitude, longitude }) {
   const direction = degreesToCardinalDirection(bearing); // Cardinal direction of the provided point in relation to the intersection
 
   return {
-    point: {
-      latitude,
-      longitude,
-    },
     nearestIntersection: {
       id: nearestIntersection.id,
       name: nearestIntersection.properties.name,
@@ -63,5 +59,6 @@ function getNearestIntersection({ latitude, longitude }) {
 }
 
 module.exports = {
+  intersections,
   getNearestIntersection,
 };

@@ -26,6 +26,12 @@ module.exports = {
       },
     );
 
-    res.json(getNearestIntersection({ latitude, longitude }));
+    res.json({
+      point: {
+        latitude,
+        longitude,
+      },
+      ...getNearestIntersection({ latitude, longitude }),
+    });
   },
 };
