@@ -1,3 +1,7 @@
 "use strict";
 
-module.exports = {};
+const navigation = require("./navigation");
+
+module.exports = {
+  navigation,
+};
