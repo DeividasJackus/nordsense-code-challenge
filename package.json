@@ -27,6 +27,10 @@
   "dependencies": {
     "@hapi/boom": "^7.4.2",
     "@hapi/joi": "^15.0.3",
+    "@turf/bearing": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
+    "@turf/invariant": "^6.1.2",
+    "@turf/nearest-point": "^6.0.1",
     "csv-parse": "^4.4.3",
     "debug": "^4.1.1",
     "express": "^4.17.1",
