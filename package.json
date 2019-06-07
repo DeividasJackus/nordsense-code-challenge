@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Code challenge for Nordsense",
   "main": "index.js",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",

@@ -4,6 +4,11 @@ Original challenge document can be found [here](https://github.com/deividasjacku
 
 Authored 2019-06-06 by [Deividas Jackus](https://github.com/deividasjackus).
 
+## Requirements
+
+- `node` version 10.0.0 or later.
+- `npm` version 6.0.0 or later.
+
 ## Installation
 
 ```bash
