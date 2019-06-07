@@ -1,7 +1,7 @@
 "use strict";
 
-const navigation = require("./navigation");
+const geospatial = require("./geospatial");
 
 module.exports = {
-  navigation,
+  geospatial,
 };

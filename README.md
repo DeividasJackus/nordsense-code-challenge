@@ -40,7 +40,7 @@ The API exposed is a single endpoint.
 
 Unless specified otherwise, all handlers return a HTTP status code of 2xx upon success and a 4xx error upon user input error.
 
-### `GET /api/nearestIntersection?latitude=<...>&longitude=<...>`
+### `GET /geospatial/nearestIntersection?latitude=<...>&longitude=<...>`
 
 **Finds the intersection closest to the point provided along with angle & cardinal direction of the point in relation to the intersection.**
 
