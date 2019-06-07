@@ -42,8 +42,8 @@ function getNearestIntersection({ latitude, longitude }) {
     ),
   );
 
-  const bearing = getBearing(nearestIntersection, givenPoint); // angle of the point in relation to the intersection
-  const direction = degreesToCardinalDirection(bearing); // cardinal direction of the point in relation to the intersection
+  const bearing = getBearing(nearestIntersection, givenPoint); // Angle of the provided point in relation to the intersection
+  const direction = degreesToCardinalDirection(bearing); // Cardinal direction of the provided point in relation to the intersection
 
   return {
     point: {
@@ -56,7 +56,7 @@ function getNearestIntersection({ latitude, longitude }) {
       latitude: getCoord(nearestIntersection)[1],
       longitude: getCoord(nearestIntersection)[0],
     },
-    distance: nearestIntersection.properties.distanceToPoint,
+    distance: nearestIntersection.properties.distanceToPoint, // Distance in kilometers between the provided point & the intersection
     bearing,
     direction,
   };
