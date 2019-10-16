@@ -36,7 +36,7 @@
     "@turf/helpers": "^6.1.4",
     "@turf/invariant": "^6.1.2",
     "@turf/nearest-point": "^6.0.1",
-    "csv-parse": "^4.4.3",
+    "csv-parse": "^4.4.6",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "morgan": "^1.9.1"
